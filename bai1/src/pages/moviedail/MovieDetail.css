@@ -1,0 +1,58 @@
+.main {
+    background-color: #000;
+}
+
+.movie {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+
+}
+
+
+.movie_intro {
+
+}
+
+.movie_backdrop {
+}
+
+.movie_detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 30%;
+}
+
+.movie_detailLeft {}
+
+.movie_poster {}
+
+.movie_detailRight {}
+
+.movie_desc {}
+
+.movie_name {}
+
+.movie_tagline {}
+
+.movie_rating {}
+
+.movie_votecount {}
+
+.movie_runtime {}
+
+.movie_data {}
+
+.movie_genres {}
+
+.movie_genre {}
+
+.movie_detailBottom {}
+
+.movie_text {}
+
+.movie_overview {}

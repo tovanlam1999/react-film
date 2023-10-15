@@ -1,0 +1,22 @@
+.header {
+    width: 30%;
+    color: #fff;
+    padding: 20px 0 50px;
+    display: flex;
+    align-items: center;
+}
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+    margin: 0 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header ul li:hover {
+    opacity: 0.8;
+}
