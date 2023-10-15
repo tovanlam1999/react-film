@@ -29,7 +29,7 @@ export default function MovieDetail() {
             <div className="movie">
                 <div className="movie_intro">
                     <img className="movie_backdrop " src={`https://image.tmdb.org/t/p/original${movie ? movie.backdrop_path : ""}`} />
-                </div>
+                
                 <div className="movie_detail">
                     <div className="movie_detailLeft">
                         <img className="movie_poster" src={`https://image.tmdb.org/t/p/original${movie ? movie.poster_path : ""}`} />
@@ -64,6 +64,7 @@ export default function MovieDetail() {
                         </div>
                     </div>
 
+                </div>
                 </div>
             </div>
         </div>
