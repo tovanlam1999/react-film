@@ -6,6 +6,8 @@
     margin: 0 auto;
     width: 90%;
     position: relative;
+    color:#fff;
+    
 }
 
 
@@ -37,7 +39,9 @@
 
 .movie_detailRight {}
 
-.movie_desc {}
+.movie_desc {
+    font-size:30px;
+}
 
 .movie_name {}
 
